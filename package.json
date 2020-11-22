@@ -1,0 +1,38 @@
+{
+	"name": "HelloWorldNodeApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node index.js",
+		"test": "jest --testPathIgnorePatterns ./*/GUI-testing/*",
+		"testGUI": "jest --testPathPattern ./*/GUI-testing/*"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cfenv": "1.2.x",
+		"chromedriver": "^81.0.0",
+		"express": "^4.17.1",
+		"ibmcloud-appid": "^6.1.0",
+		"ibmiotf": "*",
+		"is-url": "^1.2.4",
+		"jest": "^25.4.0",
+		"node": "^13.13.0",
+		"node-fetch": "^2.6.0",
+		"passport": "^0.4.1",
+		"pug": "^2.0.4",
+		"selenium-webdriver": "^4.0.0-alpha.7",
+		"express-session": "^1.17.1",
+		"log4js": "^6.2.1",
+		"winston": "^3.2.1"
+	},
+	"repository": {},
+	"engines": {
+		"node": "10.x || 12.x"
+	},
+	"devDependencies": {
+		"jest-fetch-mock": "^3.0.3"
+	},
+	"optionalDependencies": {
+		"fsevents": "2.1.2"
+	}
+}
